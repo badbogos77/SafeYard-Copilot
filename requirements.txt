@@ -1,0 +1,25 @@
+
+# --- Data & Python ---
+pandas>=2.2
+numpy>=1.26
+
+# --- Machine Learning ---
+scikit-learn>=1.5
+joblib>=1.4
+
+# --- RAG (LangChain + FAISS) ---
+langchain-core>=0.3
+langchain-community>=0.3
+langchain-text-splitters>=0.3
+faiss-cpu>=1.8
+pypdf>=4.0              # PDF 법령·매뉴얼 업로드용
+
+# --- UI ---
+streamlit>=1.45         # plotly_chart(width="stretch") 등 최신 API 사용
+plotly>=5.20
+
+# --- 설정 ---
+python-dotenv>=1.0
+
+# [LLM 연결 ]
+langchain-openai>=0.2        # OPENAI_API_KEY
